@@ -1,17 +1,21 @@
 <script>
 /* import HelloWorld from './components/HelloWorld.vue' */
-export default{
-    data() {
-        return {
-            message: 'hello vite',
-            
-          }
-      }
-  }
+
+import AppTitle from './components/AppTitle.vue';
+
+export default {
+  data() {
+    return {
+      message: 'hello vite',
+    };
+  },
+  components: { AppTitle }
+}
 </script>
 
 <template>
   <h1>{{ message }}</h1>
+  <AppTitle></AppTitle>
 </template>
 
 <style>
