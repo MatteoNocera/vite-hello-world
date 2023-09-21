@@ -12,10 +12,12 @@ export default {
 </script>
 
 <template>
-    <div class="jumbotron jumbotron-fluid bg-success">
-        <div class="container">
-            <h2 class="display-4">{{ jumboTitle }}</h2>
-            <p class="lead">{{ jumboInfo }}</p>
-        </div>
+    <div class="h-100 p-5 text-bg-dark rounded-3 my_img">
+
+        <h2>{{ jumboTitle }}</h2>
+        <p>{{ jumboInfo }}</p>
+        <button class="btn btn-outline-light" type="button">Button</button>
+
+
     </div>
 </template>

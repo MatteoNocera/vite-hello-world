@@ -5,11 +5,10 @@ import AppTitle from './components/AppTitle.vue';
 import AppHero from './components/AppHero.vue';
 
 
-
 export default {
   data() {
     return {
-      message: 'hello vite',
+      message: 'Hello vite',
     };
   },
   components: { AppTitle, AppHero }
@@ -23,8 +22,4 @@ export default {
   <AppHero></AppHero>
 </template>
 
-<style>
-* {
-  background-color: brown;
-}
-</style>
+<style></style>
